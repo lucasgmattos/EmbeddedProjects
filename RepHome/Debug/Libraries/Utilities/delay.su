@@ -1,0 +1,3 @@
+delay.c:49:13:_delay_system_ticks_sub	32	static
+delay.c:99:6:delay_system_ticks	24	static
+delay.c:121:6:delay_micro_seconds	24	static

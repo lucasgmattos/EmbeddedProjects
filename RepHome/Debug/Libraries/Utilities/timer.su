@@ -1,0 +1,5 @@
+core_cm3.h:1014:22:NVIC_SetPriority	16	static
+core_cm3.h:1059:26:NVIC_EncodePriority	40	static
+core_cm3.h:1139:26:SysTick_Config	16	static
+timer.c:12:6:setupSystick	40	static
+timer.c:21:6:setupClockTimer	24	static

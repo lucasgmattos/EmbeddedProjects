@@ -1,0 +1,4 @@
+buffer.c:10:6:BufferInit	16	static
+buffer.c:17:13:BufferPut	16	static
+buffer.c:30:13:BufferGet	16	static
+buffer.c:42:13:BufferIsEmpty	8	static

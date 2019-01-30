@@ -1,0 +1,16 @@
+network.c:27:13:setupNetwork	208	static
+network.c:53:13:startNetwork	16	static
+network.c:67:13:send_and_get_response_std	128	static
+network.c:85:5:startsWith	24	static
+network.c:110:13:getNTPTime	168	static
+network.c:146:6:sendLine	24	static
+network.c:156:6:sendData	24	static
+network.c:165:13:getStream	24	static
+network.c:187:5:getUntilch	32	static
+network.c:211:6:getEpoch	24	static
+network.c:219:13:checkNetwork	112	static
+network.c:240:13:sendWebPage	2872	static
+network.c:325:6:getIPAddress	464	static
+network.c:438:5:asciiToint	16	static
+network.c:444:6:monitorNetwork	392	static
+network.c:528:6:urldecode2	24	static
