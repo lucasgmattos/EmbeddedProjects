@@ -17,6 +17,7 @@
 #include <ctype.h>
 #include <math.h>
 #include <stdio.h>
+#include <wifipass.h>
 
 /* Private variables */
 volatile uint8_t localip[4] = {0,0,0,0};
@@ -57,8 +58,9 @@ ErrorStatus setupNetwork()
 //
 ErrorStatus startNetwork()
 {
-	//if (!send_and_get_response_std("AT+CWJAP=\"FORA TEMER\",\"d1v1d1nha\"\r\n",'\n',"OK","FAIL",6000)) return ERROR;
-	if (!send_and_get_response_std("AT+CWJAP=\"Xperia XZs\",\"senha1234\"\r\n",'\n',"OK","FAIL",6000)) return ERROR; // connects to WiFi Hotspot
+	char connectioncmd[100]; // buffer for WiFi connection command
+	sprintf(connectioncmd,"AT+CWJAP=\"%s\",\"%s\"\r\n",SSID,PASSWORD); // WiFi SSID and PASSWORD from wifipass.h
+	if (!send_and_get_response_std(connectioncmd,'\n',"OK","FAIL",6000)) return ERROR; // connects to WiFi Hotspot
 
 	if (!send_and_get_response_std("AT+CIPMUX=1\r\n",'\n',"OK","ERROR",500)) return ERROR; // Enables multiple connection ports
 

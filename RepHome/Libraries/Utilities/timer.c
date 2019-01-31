@@ -8,10 +8,6 @@
 #include "timer.h"
 #include "stm32f10x.h"
 
-#define TICK_FREQ			1000 //timer frequency
-#define CLK_PRESC			360 // timer prescaler
-#define CLK_CTR				50000 // counter limit
-
 //setup Systick, used on delay
 void setupSystick(uint16_t f_tick)
 {

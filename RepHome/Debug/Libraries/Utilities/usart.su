@@ -1,3 +1,3 @@
-usart.c:9:6:Usart1Init	40	static
-usart.c:63:6:Usart1Put	16	static
-usart.c:78:13:Usart1Get	2080	static
+usart.c:11:6:Usart1Init	40	static
+usart.c:67:6:Usart1Put	16	static
+usart.c:84:13:Usart1Get	2080	static

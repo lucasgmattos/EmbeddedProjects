@@ -1,4 +1,4 @@
-screen.c:34:6:setupDisplay	8	static
-screen.c:43:9:u8g2_gpio_and_delay_stm32	32	static
-screen.c:129:6:showScreen	160	static
-screen.c:201:6:calcDate	56	static
+screen.c:35:6:setupDisplay	8	static
+screen.c:45:9:u8g2_gpio_and_delay_stm32	32	static
+screen.c:132:6:showScreen	160	static
+screen.c:212:6:calcDate	56	static
