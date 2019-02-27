@@ -10,6 +10,10 @@ Currently has the following implemented features:
 - Auto network health check (5min)
 - Auto NTP clock refresh (1h)
 
+Kmown bugs:
+- Intermitent fail on public ip fetch from ipify
+- Intermitent out of bounds values for date and time (create assertion and race condition prevention measures) 
+
 Future functionalities (TO DO):
 - beep when new message arrives;
 - temperature sensor to show home temperature and report it to the web (DHT11 sensor);
