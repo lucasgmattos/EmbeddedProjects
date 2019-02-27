@@ -1,5 +1,7 @@
 Project created on STM32F103 for learning purposes.
 
+Libraries used: STM32 SPL, u8g2. 
+
 The idea of this implementation is to have a display that shows, at home, messages sent by anyone through a Webpage (managed by an internal webserver). It has a buffer of 4 messages of up to 65 characters. The Message screens also display the current date and time synchronized through a NTP server (GMT-2 time).
 
 Currently has the following implemented features:
